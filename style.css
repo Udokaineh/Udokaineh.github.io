@@ -1,0 +1,290 @@
+body {
+    background-color: rgb(8, 8, 8);
+    color: white;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+.hero-section {
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/5aecc44d-2a1f-4313-8399-98df20908b64/fe0d3631-4584-47e4-9cd7-ed68ba375830/NG-en-20221114-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-color:grey;
+    background-blend-mode:multiply;
+}
+
+.logo {
+    width: 140px;
+    position: relative;
+    top: 24px;
+    left: 80px;
+}
+
+.sign-in {
+    position: absolute;
+    margin-top: 24px;
+    right: 80px;
+    padding: 10px 18px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 4px;
+}
+
+h2 {
+    font-size: 48px;
+    margin-bottom: 8px;
+    font-weight: 700;
+}
+
+p {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.hero-container {
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+}
+
+.enter-email {
+    font-size: 24px;
+}
+
+.email {
+    background-color: white;
+    border: 1px solid grey;
+    padding: 20px 10px;
+    width: 34%;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+}
+
+button {
+    color: white;
+    background-color: red;
+    padding: 16px 44px;
+    border: none;
+    margin-left: 0px;
+    border-radius: 0 4px 4px 0;
+    font-size: 20px;
+}
+
+i {
+    margin-left: 8px;
+}
+
+.second-sectioncontainer {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-top: 40px;
+    padding-bottom: 60px;
+}
+
+#second-sectionvideocontainer {
+    background-image: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png);
+    width: 44%;
+    height: 360px;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    right: 80px;
+    position: absolute;
+}
+
+#second-sectionvideo {
+    position: relative;
+    padding-left: 85px;
+    padding-top: 0px;
+}
+
+.second-sectiontxt {
+    position: relative;
+
+    margin-top: 120px;
+}
+
+.second-sectiontxt p {
+    margin-top: 20px;
+    line-height: 120%;
+}
+
+.third-sectioncontainer {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 80px;
+    padding-bottom: 24px;
+    justify-content: space-around;
+}
+
+.phone-img {
+    margin-right: 910px;
+    margin-left: 80px;
+}
+
+.stranger-container {
+    display: flex;
+    background-color: rgb(17, 17, 17);
+    border: 2px solid grey;
+    width: 300px;
+    height: 70px;
+    padding: 12px;
+    border-radius: 8px;
+    position: absolute;
+    margin-right: 830px;
+    bottom: -980px
+}
+
+.third-sectiontxt {
+    position: absolute;
+    right: 80px;
+    width: 43%;
+    margin-top: 80px;
+}
+
+
+.stranger-txt1 {
+    margin-bottom: 2px;
+    font-size: 16px;
+}
+
+.stranger-txt2 {
+    font-size: 14px;
+    color: rgb(19, 85, 152);
+    margin-top: 4px;
+
+}
+
+.stranger-txtcontainer {
+    margin-left: 14px;
+    margin-top: 10px;
+}
+
+.strange-spinner {
+    padding-top: 30px;
+    margin-left: 80px;
+}
+
+.divide-line {
+    margin-top: 100px;
+    border: 4px solid rgba(128, 128, 128, 0.242);
+}
+
+.divide-line2 {
+    margin-top: 140px;
+    border: 4px solid rgba(128, 128, 128, 0.242);
+}
+
+.divide-line3 {
+    margin-top: 1100px;
+    border: 4px solid rgba(128, 128, 128, 0.242);
+}
+
+.fourth-container {
+    margin-top: 50px;
+    margin-bottom: 60px;
+    width: 40%;
+    margin-left: 80px;
+}
+
+.fourth-container p {
+    margin-top: 20px;
+}
+
+.divide-line4 {
+    border: 4px solid rgba(128, 128, 128, 0.242);
+}
+
+.fifth-container {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px;
+    margin-bottom: 80px;
+}
+
+.fifth-containertxt {
+    position: absolute;
+    right: 80px;
+    width: 50%;
+    padding-top: 54px;
+    left: 630px;
+}
+
+.fifth-containertxt2 {
+    width: 75%;
+    margin-top: 20px;
+}
+
+#kids-img {
+    position: absolute;
+    left: 80px;
+}
+
+.divide-line5 {
+    border: 4px solid rgba(128, 128, 128, 0.242);
+    margin-top: 420px;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.list {
+    background-color: rgb(54, 54, 54);
+    margin-bottom: 10px;
+    padding: 24px 32px;
+    font-size: 24px;
+}
+
+.list-container {
+    width: 68%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.sixth-container h2 {
+    margin-bottom: 50px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.six-sectiontxt {
+    text-align: center;
+}
+
+.six-sectiontxt p {
+    font-size: 18px;
+}
+
+.sixth-container {
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+.divide-line6 {
+    border: 4px solid rgba(128, 128, 128, 0.242);
+}
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 120px;
+    padding-top: 24px;
+    line-height: 140%;
+    color: rgba(255, 255, 255, 0.48);
+}
+footer h4 {
+    margin: 80px 180px 0;
+    padding-left: 40px;
+    color: rgba(255, 255, 255, 0.48);
+}
+footer p {
+    margin: 0 180px;
+    color: rgba(255, 255, 255, 0.48);
+    font-size: 14px;
+    padding-left: 40px;
+}
+.footer-txt li {
+   padding-bottom: 18px;
+   font-size: 14px;
+}

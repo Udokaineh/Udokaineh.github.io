@@ -1,107 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Netflix clone</title>
-  </head>
-  <body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icons" href="https://fontawesome.com/v4/icons/">
+  <title>Netflix clone</title>
+  <script src="https://kit.fontawesome.com/9b4054805e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="hero-section">
     <section class="first-section">
       <nav>
-     <div class="nav"><img class="logo" src="/images/Netflix logo.png" alt="logo"><button class="sign-in">Sign In</button></div>
+        <div>
+          <img class="logo" src="/images/Netflix logo.png" alt="logo" /><button class="sign-in">Sign In</button>
+        </div>
       </nav>
-      <div class="first-div">
-      <h2 class="first">
-        Unlimited movies, TV
-        <br />
-        shows, and more.
-      </h2>
-      <p>Watch anywhere. Cancel anytime.</p>
-      <p>
-        Ready to watch? Enter your email to create or restart your membership.
-      </p>
-      <input type="email" placeholder="Email address" />
-      <button>Get Started</button>
-    </div>
+      <div class="hero-container">
+        <h2>
+          Unlimited movies, TV
+          <br />
+          shows, and more.
+        </h2>
+        <p>Watch anywhere. Cancel anytime.</p>
+        <p class="email-placeholder">
+          Ready to watch? Enter your email to create or restart your
+          membership.
+        </p>
+        <input class="email" type="email" placeholder="Email address" />
+        <button>Get Started <i class="fa fa-chevron-right"></i></button>
+      </div>
     </section>
-    <section>
-      <hr />
-      <h2>Enjoy on your TV.</h2>
-      <p>Watch on smart TV's, Blu-ray players and more.</p>
-      <img src="" alt="" />
+    <hr class="divide-line">
+    <section class="second-section">
+      <div class="second-sectioncontainer">
+        <div class="second-sectiontxt">
+          <h2>Enjoy on your TV.</h2>
+          <p>Watch on Smart TVs, Playstation, Xbox,<br> Chromecast, Apple TV, Blu-ray players, and more.</p>
+        </div>
+        <div id="second-sectionvideocontainer">
+          <video id="second-sectionvideo" controls width="465" autoplay>
+            <source src="images/Netflix Cameroon - Watch TV Shows Online, Watch Movies Online.mp4" type="video/mp4">
+            <source src="movie.ogg" type="video/ogg">
+          </video>
+        </div>
+      </div>
     </section>
-    <section>
-      <hr />
-      <h2>Download your shows to watch offline.</h2>
-      <p>Save your favourites easily and always have somethng to watch.</p>
-      <img src="" alt="" />
-    </section>
-    <section>
-      <hr />
+    <hr class="divide-line2">
+    <section class="third-section">
+      <div class="third-sectioncontainer">
+        <div class="third-sectiontxt">
+          <h2>Download your shows to watch offline.</h2>
+          <p>Save your favourites easily and always have somethng to watch.</p>
+        </div>
+
+        <div class="phone-img">
+          <img src="/images/mobile-phone-image.jpg" width="500" alt="">
+        </div>
+        <div class="stranger-container">
+          <div>
+            <img src="/images/stranger-thing.png" width="50px" alt="">
+          </div>
+          <div class="stranger-txtcontainer">
+            <p class="stranger-txt1">Stranger Things</p>
+            <p class="stranger-txt2">Downloading...</p>
+          </div>
+          <div class="strange-spinner">
+            <i class="fas fa-spinner fa-spin" style="color:rgb(19, 85, 152);"></i>
+          </div>
+        </div>
+      </div>
+  </div>
+  </section>
+  <hr class="divide-line3">
+
+  <section class="fourth-section">
+    <div class="fourth-container">
       <h2>Watch everywhere.</h2>
       <p>
         Stream unlimited movies and TV shows on your phone, tablet, laptop and
         TV.
       </p>
-    </section>
-    <section>
-      <hr />
-      <h2>Create Profiles for kids.</h2>
-      <p>
-        Send kids on adventures with their favourite characters in a space made
-        just for them free with your membershp.
-      </p>
-      <img src="" alt="" />
-    </section>
-    <section>
-        <hr>
-      <h2>Frequently Asked Questiones</h2>
+    </div>
+  </section>
+  <hr class="divide-line4">
+  <section class="fifth-section">
+    <div class="fifth-container">
+      <div id="kids-img">
+        <img src="/images/kids-image.png" alt="" width="500">
+      </div>
+      <div class="fifth-containertxt">
+        <div class="fifth-containertxt1">
+          <h2>Create Profiles for kids.</h2>
+        </div>
+        <div class="fifth-containertxt2">
+          <p>
+            Send kids on adventures with their favorite characters in a space made just for them—free with your
+            membership.
+          </p>
+        </div>
+      </div>
+    </div>
+    </div>
+    <hr class="divide-line5">
+  </section>
+  <section class="sixth-container">
+    <h2>Frequently Asked Questiones</h2>
+    <div class="list-container">
       <ul>
-        <li>What is Netflix?</li>
-        <li>How much does Netflix cost?</li>
-        <li>Where can I watch?</li>
-        <li>How do I cancel?</li>
-        <li>What can I watch on Netflix?</li>
-        <li>Is Netflix good for kids?</li>
+        <div>
+          <div class="list">
+            <li>What is Netflix?<i class="fa fa-plus fa-pull-right"></i></li>
+          </div>
+          <div class="list">
+            <li>How much does Netflix cost?<i class="fa fa-plus fa-pull-right"></i></li>
+          </div>
+          <div class="list">
+            <li>Where can I watch?<i class="fa fa-plus fa-pull-right fa-pull-right"></i></li>
+          </div>
+          <div class="list">
+            <li>How do I cancel?<i class="fa fa-plus fa-pull-right"></i></li>
+          </div>
+          <div class="list">
+            <li>What can I watch on Netflix?<i class="fa fa-plus fa-pull-right"></i></li>
+          </div>
+          <div class="list">
+            <li>Is Netflix good?<i class="fa fa-plus fa-pull-right"></i></li>
+          </div>
+        </div>
       </ul>
-      <p>
-        Ready to watch? Enter your email to create or restart your membership.
-      </p>
-      <input type="email" placeholder="Email address" />
-    </section>
-    <section>
-      <hr />
-      <footer>
-        <h4>Questions? Contact us.</h4>
-        <ul>
-          <div>
-            <li>FAQ</li>
-            <li>Investor Relations</li>
-            <li>Privacy</li>
-            <li>Speed Test</li>
-          </div>
-          <div>
-            <li>Help Center</li>
-            <li>Jobs</li>
-            <li>Cookie Preferences</li>
-            <li>Legal Notices</li>
-          </div>
-          <div>
-            <li>Account</li>
-            <li>Ways to watch</li>
-            <li>Corporate Information</li>
-            <li>Only on Netflix</li>
-          </div>
-          <div>
-            <li>Media Center</li>
-            <li>Terms of Use</li>
-            <li>Contact Us</li>
-          </div>
-        </ul>
-      </footer>
-    </section>
+    </div>
+    <div class="six-sectiontxt">
+      <p>Ready to watch? Enter your email to create or restart your membership.</p>
+      <input class="email" type="email" placeholder="Email address" /> <button>Get Started <i
+          class="fa fa-chevron-right"></i></button>
+    </div>
+  </section>
+  <hr class="divide-line6">
+  <footer>
+    <h4>Questions? Contact us.</h4>
+    <ul>
+      <div class="footer-container">
+        <div class="footer-txt">
+          <li>FAQ</li>
+          <li>Investor Relations</li>
+          <li>Privacy</li>
+          <li>Speed Test</li>
+        </div>
+        <div class="footer-txt">
+          <li>Help Center</li>
+          <li>Jobs</li>
+          <li>Cookie Preferences</li>
+          <li>Legal Notices</li>
+        </div>
+        <div class="footer-txt">
+          <li>Account</li>
+          <li>Ways to watch</li>
+          <li>Corporate Information</li>
+          <li>Only on Netflix</li>
+        </div>
+        <div class="footer-txt">
+          <li>Media Center</li>
+          <li>Terms of Use</li>
+          <li>Contact Us</li>
+        </div>
+      </div>
+    </ul>
     <p>Netflix Nigeria</p>
-  </body>
+  </footer>
+</body>
 </html>

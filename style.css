@@ -148,6 +148,7 @@ i {
 .stranger-txt1 {
     margin-bottom: 2px;
     font-size: 16px;
+    margin-top: 10px;
 }
 
 .stranger-txt2 {
@@ -159,7 +160,6 @@ i {
 
 .stranger-txtcontainer {
     margin-left: 14px;
-    margin-top: 10px;
 }
 
 .strange-spinner {
@@ -243,6 +243,22 @@ ul li {
     margin: auto;
     padding-bottom: 20px;
 }
+.dropicon {
+    background-color:  rgb(54, 54, 54);
+    color: white;
+    padding: 16px;
+    border: none;
+   position: relative;
+    left: 550px;
+    cursor: pointer;
+  }
+
+  .dropdown {
+    position: relative;
+    display: block;
+
+  }
+  
 
 .sixth-container h2 {
     margin-bottom: 50px;
